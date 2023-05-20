@@ -12,7 +12,7 @@ The scenario serves as a practical demonstration of my SQL skills, showcasing my
 
 Overall, this scenario is designed to validate my proficiency in SQL and showcase my ability to leverage its capabilities in various data analysis scenarios, irrespective of the specific details of the scenario itself.
 
-## Scenario
+## Scenario 1
 
 In this scenario, I encountered a potential security incident that took place after business hours. The incident prompted me to initiate an investigation to identify the root cause and assess the impact. To gain deeper insights into the situation, I needed to query the ``log_in_attempts`` table and focus on reviewing the login activity that occurred after the designated closing time of 6 PM.
 
