@@ -24,8 +24,11 @@ FROM log_in_attempts
 WHERE login_time > '18:00' AND success = 0;
 ```
 <details close>
-  <summary>The Results:</summary>
+
+<summary>The Results:</summary>
+  
 ![SQLQUERY](https://github.com/AmiliaSalva/Security-Incident-Investigation-After-Hours-Failed-Login-Attempts-Analysis-Using-SQL/assets/132176058/c452a1d3-519e-4e6c-a20c-875160576533)
+
 </details>
 
 This query retrieves all columns from the log_in_attempts table where the login time is after 18:00 and the login attempt is unsuccessful (denoted by a value of 0 in the success column). It provides a way to filter and focus on failed login attempts that occurred after the specified time, allowing for further investigation into potential security incidents or anomalies.
