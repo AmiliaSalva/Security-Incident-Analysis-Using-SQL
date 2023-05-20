@@ -1,4 +1,4 @@
-# Security Incident Investigation: After-Hours Failed Login Attempts Analysis Using SQL
+# Security Incident Investigation: Failed Login Attempts Analysis Using SQL
 
 ## Introduction
 
@@ -61,11 +61,41 @@ WHERE login_date >= '2022-05-08' AND login_date <= '2022-05-09';
 > By executing this SQL query, I aimed to retrieve all available information regarding the login attempts during the specified period. The query consisted of a ``WHERE`` clause that utilized the greater than or equal to ``(>=)`` and less than or equal to ``(<=)`` operators to encompass the dates May 8 and May 9, 2022.
 
 > The purpose of this query was to gather a comprehensive overview of the login activity on the specific days of interest, enabling a closer examination of the events leading up to and including the suspicious incident. By reviewing the retrieved data, I could delve deeper into the login attempts and extract valuable insights or patterns that might aid in the investigation and resolution of the suspicious event.
-
+ 
  <br />
  <br />
 
 ## Scenario 3
+
+In this scenario, there have been suspicious login attempts, and it has been determined that these attempts did not originate in Mexico. To investigate further, a query needed to be created to identify all login attempts that occurred outside of Mexico. The country column contains values such as MEX and MEXICO, requiring the use of the ``LIKE`` keyword with `` % `` to account for variations in the data.
+
+I used the following query:
+
+```
+SELECT *
+FROM log_in_attempts
+WHERE country NOT LIKE 'MEX%';
+
+```
+<details close>
+
+<summary>The Results:</summary>
+
+
+![SQLQUERY4](https://github.com/AmiliaSalva/Security-Incident-Investigation-After-Hours-Failed-Login-Attempts-Analysis-Using-SQL/assets/132176058/dbfc324e-7e1e-4a43-b6c6-bfac07b7ebe4)
+
+
+
+</details>
+
+> By executing this query, the login attempts that occurred outside of Mexico are identified. The results will provide insights into any suspicious activity originating from locations other than Mexico.
+
+> This query demonstrates the use of SQL filters and the ``LIKE`` keyword with ``%`` to narrow down the search to specific login attempts based on the country column. It effectively filters out records related to Mexico, which narrows down the focus into login attempts originating from other countries!
+
+ <br />
+ <br />
+
+## Scenario 4
 
 In this scenario, my team has tasked me with gathering information on employee machines in the Marketing department for security updates. To accomplish this, I needed to query the employees table using SQL filters to identify all employees within the Marketing department, specifically those located in offices within the East building.
 
