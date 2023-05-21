@@ -9,9 +9,9 @@ The purpose of these scenarios is to assess my proficiency in using SQL for data
 
 By simulating a scenario involving data analysis, this exercise evaluates my understanding of SQL syntax, query construction, and data retrieval techniques. It assesses my capability to navigate and query a database effectively, extracting valuable insights and information to address specific requirements or solve problems.
 
-The scenario serves as a practical demonstration of my SQL skills, showcasing my ability to manipulate data, apply filters, and analyze datasets to uncover patterns, anomalies, or other meaningful information. It showcases my competence in utilizing SQL as a versatile tool for querying and analyzing data, enabling me to extract valuable insights and draw informed conclusions.
+These scenarios serve as a practical demonstration of my SQL skills, showcasing my ability to manipulate data, apply filters, and analyze datasets to uncover patterns, anomalies, or other meaningful information. It showcases my competence in utilizing SQL as a versatile tool for querying and analyzing data, enabling me to extract valuable insights and draw informed conclusions.
 
-Overall, this scenario is designed to validate my proficiency in SQL and showcase my ability to leverage its capabilities in various data analysis scenarios, irrespective of the specific details of the scenario itself.
+Overall, these scenarios are designed to validate my proficiency in SQL and showcase my ability to leverage its capabilities in various data analysis scenarios, irrespective of the specific details of the scenario itself.
 
 ## Scenario 1
 
