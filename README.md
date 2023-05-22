@@ -97,7 +97,7 @@ WHERE country NOT LIKE 'MEX%';
 
 ## Scenario 4
 
-In this scenario, my team has tasked me with gathering information on employee machines in the Marketing department for security updates. To accomplish this, I needed to query the employees table using SQL filters to identify all employees within the Marketing department, specifically those located in offices within the East building.
+In this scenario, I have been tasked me with gathering information on employee machines in the Marketing department for security updates. To accomplish this, I needed to query the employees table using SQL filters to identify all employees within the Marketing department, specifically those located in offices within the East building.
 
 I used the following query:
 
