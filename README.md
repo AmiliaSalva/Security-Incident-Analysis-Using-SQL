@@ -1,4 +1,4 @@
-# Security Incident Investigation: Failed Login Attempts Analysis Using SQL
+# Security Incident Analysis Using SQL
 ![Dark Purple Technical Roadmap Brainstorm(6)](https://github.com/AmiliaSalva/Security-Incident-Investigation-After-Hours-Failed-Login-Attempts-Analysis-Using-SQL/assets/132176058/658cf34a-e3ca-4ed4-86ba-8db62b39e989)
 
 ## Introduction
